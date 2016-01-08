@@ -28,6 +28,133 @@ a, a:hover, a:focus {
   text-decoration: none;
 }
 
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #006089;
+}
+
 /* ==================================================
     Sections
 ================================================== */
+
+/* ==================================================
+   SCA
+================================================== */
+#sca {
+  background: #FFEE58;
+  -webkit-transition:all 0.5s linear;
+  -moz-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  transition:all 0.5s linear;
+  color: #474747;
+}
+
+#sca h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#sca .sca-logo {
+  margin: 0 auto;
+}
+
+#sca .bx-wrapper {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  background-color: #FFEE58;
+}
+
+#sca h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+#sca .module {
+  margin: 0 0 6em;
+}
+
+#sca .module h3 {
+  padding: 0.5em 0 1.5em;
+}
+
+#sca .module p {
+  font-size: 18px;
+}
+
+#sca .module .row {
+  margin-bottom: 20px;
+}
+
+#sca #video1,
+#sca #video2,
+#sca #video3,
+#sca #video4,
+#sca #video5,
+#sca #video6 {
+  max-width: 634px;
+  display: inline-block;
+  height: auto;
+  margin: 0 15px;
+  position: relative;
+  width: auto;
+}
+
+#sca #video1 .video-js,
+#sca #video3 .video-js,
+#sca #video5 .video-js {
+  position: absolute;
+  top: 4.9%;
+  left: 10.7%;
+  width: 79% !important;
+  height: auto !important;
+}
+
+#sca #video1 .video-js video,
+#sca #video2 .video-js video,
+#sca #video3 .video-js video,
+#sca #video4 .video-js video,
+#sca #video5 .video-js video,
+#sca #video6 .video-js video {
+  height: auto !important;
+}
+
+#sca #video1 img,
+#sca #video2 img,
+#sca #video3 img,
+#sca #video4 img,
+#sca #video5 img,
+#sca #video6 img {
+  width: 100%;
+  height: 100%;
+}
+
+#sca #video2 .video-js,
+#sca #video4 .video-js,
+#sca #video6 .video-js {
+  position: absolute;
+  top: 8.5%;
+  left: 4%;
+  width: 92% !important;
+  height: auto !important;
+}
+
+#sca .module .video-js {
+  margin: 0 auto;
+}
+
+#attendance {
+  background-color: #FFEE58;
+}
+
+#evaluation {
+  background-color: #FFEE58;
+}
+
+#task {
+  background-color: #FFEE58;
+}

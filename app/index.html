@@ -6,28 +6,134 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="HandheldFriendly" content="true"/>
   <meta name="MobileOptimized" content="320"/>
-  <title>SystemLab</title>
+  <title>SCA - SECTION</title>
   <!-- build:css css/style.min.css -->
   <!-- bower:css -->
-
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="lib/bxslider-4/dist/jquery.bxslider.css" />
+  <link rel="stylesheet" href="lib/video.js/dist/video-js/video-js.css" />
   <!-- endbower -->
   <!-- inject:css -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/nerveSlider.css">
-  <link rel="stylesheet" href="/css/responsive.css">
   <!-- endinject -->
   <!-- endbuild -->
 </head>
 <body>
-  <h1></h1>
+  <section id="sca" class="jbp-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-md-offset-5">
+          <img src="img/sca-logo.png" class="img-responsive sca-logo">
+        </div>
+      </div>
+      <h2>Sistema de Comunicación Académica</h2>
+      <div class="sca-slider">
+        <div class="slide bg-1">
+          <article id="attendance" class="module attendance">
+            <h3>ASISTENCIA</h3>
+            <div class="row">
+              <div class="col-md-7">
+                <p class="text-center">Ahorra tiempo registrando las asistencias de tus alumnos.</p>
+                <div id="video1">
+                  <video id="v_prueba_1" class="video-js">
+                   <source src="video/attendance/attendance-web.mp4" type='video/mp4' />
+                   <p class="vjs-no-js">No se encuentra activado el Javascript, revise su configuración del navegador.</p>
+                  </video>
+                  <img src="img/monitor.png">
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <p class="text-center">Ahora podrás saber el estado de las asistencias en tiempo real.</p>
+                    <div id="video2">
+                      <video id="v_prueba_2" class="video-js">
+                       <source src="video/attendance/attendance-movil.mp4" type='video/mp4' />
+                       <p class="vjs-no-js">No se encuentra activado el Javascript, revise su configuración del navegador.</p>
+                      </video>
+                      <img src="img/mobile.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="slide bg-2">
+          <article id="evaluation" class="module evaluation">
+            <h3>EVALUACIONES</h3>
+            <div class="row">
+              <div class="col-md-7">
+                <p class="text-center">Registra las notas de tus alumnos de una manera rápida y sencilla.</p>
+                <div id="video3">
+                  <video id="v_prueba_3" class="video-js">
+                   <source src="video/evaluations/evaluation-web.mp4" type='video/mp4' />
+                   <p class="vjs-no-js">No se encuentra activado el Javascript, revise su configuración del navegador.</p>
+                  </video>
+                  <img src="img/monitor-small.png">
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <p class="text-center">Monitorea su desempeño en cada una de las asignaturas.</p>
+                    <div id="video4">
+                      <video id="v_prueba_4" class="video-js">
+                       <source src="video/evaluations/evaluation-movil.mp4" type='video/mp4' />
+                       <p class="vjs-no-js">No se encuentra activado el Javascript, revise su configuración del navegador.</p>
+                      </video>
+                      <img src="img/mobile.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="slide bg-3">
+          <article id="task" class="module task">
+            <h3>TAREAS</h3>
+            <div class="row">
+              <div class="col-md-7">
+                <p class="text-center">Planifica las tareas y matenlas organizadas para su posterior calificación.</p>
+                <div id="video5" >
+                  <video id="v_prueba_5" class="video-js bx-video-5">
+                   <source src="video/tasks/task-web.mp4" type='video/mp4' />
+                   <p class="vjs-no-js">No se encuentra activado el Javascript, revise su configuración del navegador.</p>
+                  </video>
+                  <img src="img/monitor-small.png">
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <p class="text-center">Enterate de las tareas y ayudalo a planificar el desarrollo de las mismas.</p>
+                    <div id="video6">
+                      <video id="v_prueba_6" class="video-js bx-video-6">
+                       <source src="video/tasks/task-movil.mp4" type='video/mp4' />
+                       <p class="vjs-no-js">No se encuentra activado el Javascript, revise su configuración del navegador.</p>
+                      </video>
+                      <img src="img/mobile.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- build:js js/vendor.min.js -->
   <!-- bower:js -->
   <script src="lib/jquery/dist/jquery.js"></script>
   <script src="lib/jquery-ui/jquery-ui.js"></script>
   <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="lib/bxslider-4/dist/jquery.bxslider.js"></script>
+  <script src="lib/video.js/dist/video-js/video.js"></script>
   <!-- endbower -->
   <!-- inject:js -->
-  <script src="/js/jquery.nerveSlider.js"></script>
   <script src="/js/main.js"></script>
   <!-- endinject -->
   <!-- endbuild -->

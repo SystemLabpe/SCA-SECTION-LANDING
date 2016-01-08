@@ -4,6 +4,8 @@
   "dependencies": {
     "jquery-ui": "~1.11.4",
     "bootstrap": "~3.3.5",
-    "font-awesome": "4.3.0"
+    "font-awesome": "4.3.0",
+    "bxslider-4": "~4.2.5",
+    "video.js": "4.12.11"
   }
 }
